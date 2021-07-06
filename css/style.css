@@ -1,0 +1,157 @@
+img{
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: white;
+}
+
+.container {
+    width: 1100px;
+    margin: auto;
+    overflow: auto;
+}
+
+h1 {
+    font-weight: bold;
+    margin: 0;
+    text-shadow: 2px 2px 2px black;
+}
+
+h1 img {
+    width: 250px;    
+    height: 200px;
+}
+
+
+.hero {
+    height: 500px;
+    gap: 5rem;
+    border-radius: 20px;
+}
+
+.crew_picture {
+    margin: auto;
+}
+
+.gallery {
+    padding-bottom: 20px;
+}
+
+.card {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.card img {
+    width: 300px;
+    height: 300px;
+}
+
+.hover_text {
+    display: none;
+}
+
+
+
+
+
+
+
+
+/* Utilities */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.grid_3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.tiny {
+    font-size: 1rem;
+}
+
+.sm {
+    font-size: 1.5rem;
+}
+
+.md {
+    font-size: 2rem;
+}
+
+.lg {
+    font-size: 3rem;
+}
+
+.mega {
+    font-size: 4rem;
+}
+
+.bg_none {
+    background-color: transparent;
+}
+
+.bg_brown {
+    background-color: #9f4a00;
+}
+
+.align {
+    margin: auto;
+}
+
+/* Padding */
+.py1 {
+    padding: 1rem 0;
+}
+.py2 {
+    padding: 2rem 0;
+}
+.py3 {
+    padding: 3rem 0;
+}
+.px1 {
+    padding: 0 1rem;
+}
+.px2 {
+    padding: 0 2rem;
+}
+.px3 {
+    padding: 0 3rem;
+}
+.p0 {
+    padding: 0;
+}
+.p1 {
+    padding: 1rem;
+}
+.p2 {
+    padding: 2rem;
+}
+.p3 {
+    padding: 3rem;
+}
